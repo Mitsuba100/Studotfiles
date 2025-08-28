@@ -2,7 +2,7 @@
 
 # Ask for a commit message
 read -rp "Enter commit message: " msg
-
+cd ~/dotfiles-backup
 # Stage all changes
 git add -A
 
